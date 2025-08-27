@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travy - TravelBloom</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <nav>
+            <div class="items travel">
+                <h1>TravelBloom</h1>
+            </div>
+            
+            <ul class="items nav-links">
+                <li>
+                    <a href="./index.html" id="home">Home </a>
+                </li>
+                <li>
+                    <a href="./about.html" id="home">About Us</a>
+                </li>
+                <li>
+                    <a href="./contact.html" id="home">Contact Us </a>
+                </li>
+            </ul>
+
+            <div class="items search-bar">
+                <input type="text" name="search" id="searchInput" placeholder="Enter a destination or keyword"/>
+                <i class="fas fa-search"></i>
+                <button id="searchBtn">Search</button>
+                <button id="btnClear">Clear</button>
+            </div>
+        </nav>
+        <aside>
+            <div class="social-icons">
+                <div class= "solid-line-div">
+                <div class="solid-line"></div>
+                </div>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </aside>
+        <main id="home">
+            <div>
+                <h1>EXPLORE<br> DREAM<br> DESTINATION</h1>
+                <p>It encourages exploration of unfimilar <br>territories, embracing diverse cultures and<br> landscapes while
+                    pursing desired<br> destinations that captivates the heart and<br> ignites of wonder.</p>
+                <button>BOOK NOW</button>
+            </div>
+            <!-- Your search content goes here -->
+            <div id="result" class="hide"></div>
+        </main>
+    
+        <script src="./index.js"></script>
+    </body>
+</html>
